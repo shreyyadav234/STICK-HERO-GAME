@@ -1,0 +1,124 @@
+/* styles.css */
+
+#playbutton {
+    -fx-background-color: rgba(199, 139, 129, 0.5);
+    -fx-border-color: transparent; /* Border color (Dark Green) */
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 60px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.9s;
+
+}
+
+#playbutton:hover {
+    -fx-background-color: #45a049;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+#playbutton .text {
+    -fx-font-family: 'Verdana'; /* Use your desired cartoonish font */
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 1);
+}
+#pillar {
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 0);
+}
+
+
+#scorebutton {
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900);
+    -fx-border-color: #cc3525;
+    -fx-border-width: 5;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-radius: 10 10 10 10;
+    -fx-text-fill: #cc3525;
+    -fx-font-size: 24px;
+    -fx-font-family: 'Verdana';
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1);
+    -fx-pref-width: 216px;
+    -fx-pref-height: 64px;
+}
+
+
+#scorebutton:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}#scorebutton1 {
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900);
+    -fx-border-color: #cc3525;
+    -fx-border-width: 5;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-radius: 10 10 10 10;
+    -fx-text-fill: #cc3525;
+    -fx-font-size: 24px;
+    -fx-font-family: 'Verdana';
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1);
+    -fx-pref-width: 216px;
+    -fx-pref-height: 64px;
+}
+
+
+#scorebutton1:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+#exitbutton{
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900);
+    -fx-border-color: #cc3525;
+    -fx-border-width: 5;
+    -fx-background-radius: 13 13 13 13;
+    -fx-border-radius: 10 10 10 10;
+    -fx-text-fill: #cc3525;
+    -fx-font-size: 18px;
+    -fx-font-family: 'Verdana';
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1); /* Shadow effect */
+    -fx-pref-width: 216px;
+    -fx-pref-height: 64px;
+}
+
+
+#exitbutton:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+ #progressbar {
+     -fx-control-inner-background: #cc3525;
+     -fx-border-color: #cc3525;
+     -fx-border-width: 2px;
+     -fx-border-radius: 10px;
+ }
+
+
+ #progressbar .text {
+     -fx-font-family: 'Verdana';
+     -fx-font-size: 14px;
+ }
+
+
+ #progressbar .track {
+     -fx-background-color: #40bf39;
+ }
+
+
+ #progressbar .bar {
+     -fx-background-color: #cc3525;
+ }
+
+
+ #progressbar .label {
+     -fx-text-fill: #008080;
+ }

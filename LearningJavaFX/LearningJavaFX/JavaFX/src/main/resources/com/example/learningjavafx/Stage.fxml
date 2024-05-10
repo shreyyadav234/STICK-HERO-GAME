@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1070.0" prefWidth="1930.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.learningjavafx.HelloController">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <ImageView fitHeight="1070.0" fitWidth="1930.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ExitBut" layoutX="1489.0" layoutY="86.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="187.0" stylesheets="@playbuttonStyle.css" text="EXIT">
+         <font>
+            <Font name="Lato Light" size="1.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="hero" fitHeight="160.0" fitWidth="200.0" layoutX="440.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hero.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
